@@ -29,6 +29,7 @@ const RatingsContainer = () => {
     const savedData = useSelector((state: RootState) => state.rating.data);
 
     const handleChange = (event: React.ChangeEvent<unknown>, value: number) => {
+        console.log('event', event)
         setPageNumber(value);
     };
 
