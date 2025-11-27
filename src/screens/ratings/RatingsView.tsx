@@ -1,3 +1,4 @@
+import React from 'react';
 import type { Rating } from "../../types/ratingType";
 import style from "./Ratings.module.scss";
 interface RatingsViewProps {
