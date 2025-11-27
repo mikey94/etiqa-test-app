@@ -66,6 +66,7 @@ const RatingsContainer = () => {
 
     return (
         <div className={style.mainContainer}>
+            <h1>Trending Repos</h1>
             <RatingsView repoData={getRenderData()} />
             {
                 savedData.length > 0 ? <CustomPagination count={pageCount} page={pageNumber} onChange={handleChange} color="primary" /> : null
